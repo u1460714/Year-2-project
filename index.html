@@ -1,0 +1,86 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>UA Attendance</title>
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+
+<ul class="topnav" id="myTopnav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="scan.html">Scan In</a></li>
+    <li><a href="attendance.html">View Attendance</a></li>
+    <li><a href="help.html">Help</a></li>
+    <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+    </li>
+</ul>
+
+    <div class="bg">
+        <img src="images/testimg.png">
+    </div>
+
+
+
+<div class="loginbox" onmouseover="this.className='loginbox1'" onmouseout="this.className='loginbox'">
+    <a href="login.html">
+        <h2 id="loginh2">Login</h2>
+        <p id="loginp">Login in to your university account</p>
+        <img id="loginimg" img src="images/loginimg.png">
+
+            </a>
+</div>
+
+
+<div class="attendancebox" onmouseover="this.className='attendancebox1'" onmouseout="this.className='attendancebox'">
+    <a href="attendance.html">
+    <h2 id="attendanceh2">View Attendance</h2>
+    <p id="attendancep">Click to view your Attendance</p>
+    <img id="attendanceimg" img src="images/calender.png">
+    </a>
+</div>
+
+
+<div class="helpbox" onmouseover="this.className='helpbox1'"
+     onmouseout="this.className='helpbox'">
+    <a href="help.html">
+        <h2 id="helph2">Help</h2>
+        <p id="helpp">Click for help using UAttendance</p>
+        <img id="helpimg" img src="images/helpimg.png">
+    </a>
+</div>
+
+
+<div class="bodyofapp">
+
+</div>
+
+<!--
+<div id="loginButton">
+  <input type="image" src="images/unactiveloginbutton.png" name="submit" id="loginbtn" alt="Button" onmouseover="loginBtn('activeloginbutton.png')" onmouseout="loginBtn('unactiveloginbutton.png')">
+  </div>
+
+
+LOOK AT CORDOVA
+
+
+
+
+<!--  <button class="button_viewattendance"><a href="attendance.html" style="text-decoration:none">View Attendance</a></button> -->
+
+
+
+<script type="text/javascript" src="scripts/index.js"> 
+    function loginBtn(image) {
+        var loginbtn = document.getElementById('loginbtn');
+        loginbtn.src = "images/" + image; //no condition needed due to html onmouseover and onmouseout
+
+    }
+</script>
+</body>
+</html>

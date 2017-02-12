@@ -1,0 +1,690 @@
+
+
+.bodyofapp {
+  float: left;
+  width:100%;
+  height:100%;
+  margin:0px;
+    min-height:300px;
+    max-height:700px;
+    min-width: 360px;
+    max-width: 450px;
+    border-radius: 4px;
+    position:fixed;
+    top:-4px;
+    z-index: -10; /* order of objects on screen */
+}
+    
+a:visited {color:black;}
+.la:link {
+    text-decoration: none;
+}
+
+
+      
+
+.button_login{    
+    height:55px;
+    width:350px;
+    position:absolute;
+    background-color:#ffffff;
+    border:solid;
+    border-color:black;
+    padding: 4px 25px;
+    text-align: center;
+    color:black;
+    display:inline-block;
+    font-size:20px;
+    margin: 4px 2px;
+    cursor:pointer;
+    top:250px;
+    left:41px;
+    z-index:1; /* order of objects on screen */  
+    text-decoration: none;
+    max-width: 450px;
+}
+
+
+.button_viewattendance h2{
+    position:absolute;
+    top:350px;
+    left:41px;
+    z-index:1; /* order of objects on screen */  
+}
+
+
+
+.loginbox{
+    position:absolute;
+    top:250px;
+    height:55px;
+    width:350px;
+    left:41px;
+    border:solid;
+    border-color:transparent;
+    background-color:#1e56d6;
+    opacity: 0.8;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+.loginbox1{
+    position:absolute;
+    top:250px;
+    height:55px;
+    width:353px;
+    left:41px;
+    border:solid;
+    border-color:transparent;
+    border-radius:5px;
+-moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+}
+
+
+#loginp{
+    font-family:sans-serif; 
+    position:relative;
+    top:-30px;
+    color:#1e56d6;
+}
+
+#loginh2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+    color:#1e56d6;
+}
+
+#loginimg{
+    position: absolute;
+    left:290px;
+    top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.attendancebox{
+    position:absolute;
+    top:370px;
+    height:55px;
+    width:350px;
+    left:41px;
+    border:solid;
+    border-color:transparent;
+}
+
+.attendancebox1{
+    position:absolute;
+    top:370px;
+    height:55px;
+    width:353px;
+    left:41px;
+    border:solid;
+    border-color:transparent;
+    background-color:#333;
+
+    border-radius:5px;
+-moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+}
+
+
+#attendancep{
+    font-family:sans-serif; 
+    position:relative;
+    top:-30px;
+    color:#1e56d6;
+    font-size: 5.5vw;
+}
+
+#attendanceh2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+    color:#1e56d6;
+}
+
+#attendanceimg{
+    position:relative;
+    top:-105px;
+    left:295px;
+}
+
+
+
+.helpbox{
+    position:absolute;
+    top:490px;
+    height:55px;
+    width:350px;
+    left:41px;
+    border:solid;
+    border-color:transparent
+}
+
+.helpbox1{
+    position:absolute;
+    top:490px;
+    height:55px;
+    width:350px;
+    left:41px;
+    border:solid;
+    border-color:transparent;
+    border-radius:5px;
+        -moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+}
+
+#helpp{
+    font-family:sans-serif; 
+    position:relative;
+    top:-30px;
+    font-size: 5.5vw;
+
+}
+
+#helph2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+}
+
+#helpimg{
+    position: relative;
+    top:-100px;
+    left:295px;
+}
+
+
+
+.button_help {
+    position:absolute;
+    background-color:#ffffff;
+    border:solid;
+    border-color:black;
+    padding: 4px 25px;
+    text-align: center;
+    color:black;
+    display:inline-block;
+    font-size:20px;
+    margin: 4px 2px;
+    cursor:pointer;
+    height:55px;
+    width:350px;
+    top:450px;
+    left:41px;
+    z-index:1; /* order of objects on screen */  
+}
+
+.login {
+
+border-radius: 6px;
+}
+
+
+
+
+
+body {margin:0;}
+
+
+
+ul.topnav {
+
+    text-align:center;
+    max-width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333;
+    font-family:inherit;
+     z-index: 999;
+     border-bottom-color:deepskyblue;
+}
+
+
+
+ul.topnav li {
+   float:left;
+    text-align:center;
+     z-index: 999;
+     border-bottom-color:deepskyblue;
+}
+
+ul.topnav li a {
+
+  display: inline-block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 15px 15px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+font-family:sans-serif;
+ z-index: 999;
+ border-bottom-color:deepskyblue;
+   
+
+    
+}
+
+ul.topnav li a:hover {background-color: #555;
+    
+}
+
+ul.topnav li.icon 
+{
+    float:right;
+    display: none;
+    
+    
+}
+
+
+
+/* ------------------------------------------------------------------------------------------*/
+
+
+
+
+@media screen and (max-width:680px) {
+    
+  ul.topnav li:not(:first-child) {
+      display: none;
+     
+  }
+    
+  ul.topnav li.icon {
+      
+      
+    float: right;
+    display: inline-block;
+      z-index: 999;
+      
+      
+  }
+}
+
+@media screen and (max-width:550px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+   
+      position:fixed;
+    right: 0;
+    top: 0;
+      z-index: 999;
+      
+      
+  }
+    
+  ul.topnav.responsive li {
+      position:relative;
+    float: none;
+    display: inline;  
+   z-index: 999;
+   border-color:deepskyblue;
+      
+  }
+
+
+
+  ul.topnav.responsive li a {
+      padding: 3% 20%;
+    display: block;
+    border:solid;
+    border-color:#1e56d6;
+    border-width:0.1px;
+        text-align:center;
+      z-index: 5;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:380px) { /* CSS FOR SMALLER PHONES/DEVICES */
+    
+    .loginbox{
+    position:absolute;
+        width:90%;
+  height:22%;
+    top:35%;
+    left:5%;
+    right:5%;
+    border:solid;
+    border-color:transparent;
+    border-radius:5px;
+    background-color:#333;
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+}
+    .loginbox1{
+    position:absolute;
+     width:90%;
+  height:22%;
+  top:35%;
+    left:5%;
+    right:5%;
+    border:solid;
+    border-color:transparent;
+    border-radius:5px;
+    background-color:#333;
+-moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+}
+
+
+
+a:link {
+    text-decoration: none;
+    text-align:center;
+    
+}
+#loginp{
+    font-family:sans-serif; 
+    position:relative;
+    top:-40px;
+    font-size: 5.5vw;
+    text-align: center;
+   color:#2363F7;
+    
+
+}
+
+#loginh2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+    font-size: 8vw;
+    text-align: center;
+    color:#2363F7;
+}
+    
+#loginimg{
+    position:relative;
+    width:20%;
+  height:auto;
+margin-top:-70px;
+    left:40%;
+    right:40%;
+}
+
+    
+    
+    .attendancebox{
+    position:absolute;  
+    top:60%;
+    width:90%;
+  height:22%;
+    left:5%;
+    right:5%;
+    border:solid;
+    opacity: 1;
+    border-color:transparent;
+     background-color:#333;
+    border-radius:5px;
+}
+
+.attendancebox1{
+    position:absolute;
+    top:60%;
+    width:90%;
+  height:22%;
+    left:5%;
+    right:5%;
+    border:solid;
+    background-color:#333;
+    border-color:transparent;
+    border-radius:5px;
+-moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+background-color:#333;
+}
+
+
+#attendancep{
+    font-family:sans-serif; 
+    position:relative;
+    top:-40px;
+    font-size: 5.5vw;
+    text-align: center;
+    color:#1e56d6;
+}
+
+#attendanceh2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+    font-size: 8vw;
+    text-align: center;
+    color:#1e56d6;
+}
+
+#attendanceimg{
+       position:relative;
+    width:20%;
+  height:auto;
+margin-top:60px;
+    left:40%;
+    right:40%;
+}
+
+
+
+.helpbox{
+    position:absolute;
+    top:85%;
+    width:90%;
+  height:22%;
+    left:5%;
+    right:5%;
+    border:solid;
+    opacity: 1;
+    border-color:transparent;
+         background-color:#333;
+        border-radius:5px;
+}
+
+.helpbox1{
+    position:absolute;
+    width:90%;
+    top:85%;
+  height:22%;
+    left:5%;
+    right:5%;
+    border:solid;
+    border-color:transparent;
+    border-radius:5px;
+        -moz-box-shadow: -5px -5px -5px -5px  rgba(0,0,0,0.5);
+-webkit-box-shadow: -5px -5px -5px -5px   rgba(0,0,0,0.5);
+box-shadow: -5px -5px  rgba(0,0,0,0.5);
+background-color:#333;
+}
+
+#helpp{
+    top:-40px;
+    font-family:sans-serif; 
+    position:relative;
+    font-size: 5.5vw;
+    text-align: center;
+    color:#1e56d6;
+}
+
+#helph2{
+position:relative;
+    top:-20px;
+    font-family: sans-serif;  
+    font-size: 8vw;
+    text-align: center;
+    color:#1e56d6;
+}
+
+#helpimg{
+       position:relative;
+    width:20%;
+  height:auto;
+margin-top:60px;
+    left:40%;
+    right:40%;
+}
+
+
+
+
+/* LOGIN PAGE --------------------------------------------------------*/
+#logusername{
+    position: fixed;
+    height:30px;
+    width:75%;
+    top:55%;
+    margin-left:12%;
+    margin-right:12%;
+    border-radius:5px;
+    text-align:center;
+    font-size:25px;
+}
+
+
+.bg img{
+    width:100%;
+    height:100%;
+    filter: brightness(50%);
+    position: fixed;
+    z-index:-1;
+    top:-3px;
+    border-radius:3px;
+}
+
+
+input[type=text]{
+    position:fixed;
+    top:50%;
+    width:80%;
+    left:10%;
+    right:10%;
+    padding: 6px 12px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    text-align:center;
+    font-size:25px;
+    border-radius:3px;
+    
+}
+
+input[type=password]{
+    position:fixed;
+    top:60%;
+    width:80%;
+    left:10%;
+    right:10%;
+    padding: 6px 12px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align:center;
+    font-size:25px;
+    border-radius:3px;
+}
+
+input:focus {
+    border: 2px solid #1e56d6;
+
+    
+}
+
+
+
+@media screen and (min-height:380px) {
+    
+}
+
+
+.tooltip {
+   color:#1e56d6;
+    position: fixed;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    top:72%;
+    left:45%;
+    right:20%;
+
+}
+
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100%;
+    margin-left:-10%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 50px 50px;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+#loginButton button {
+    background-color:#1e56d6;
+    position:fixed;
+    top:85%;
+    width:80%;
+    left:10%;
+    right:10%;
+    border-radius:3px;
+    border:solid 0px;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
